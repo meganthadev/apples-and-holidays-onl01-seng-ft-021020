@@ -23,6 +23,9 @@ end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
   holiday_hash.each do |holiday, supply| 
+    if holiday == :winter
+      << "etc"
+    else do assert_nothing_raised
     
   
   # holiday_hash is identical to the one above
